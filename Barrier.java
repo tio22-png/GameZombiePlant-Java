@@ -1,4 +1,4 @@
-public class Barrier implements Destroyable {
+public class Barrier {
     private int strength;
 
     public Barrier(int strength) {
@@ -13,7 +13,6 @@ public class Barrier implements Destroyable {
         return this.strength;
     }
 
-    @Override
     public void destroyed() {
         this.strength -= 9;
         if (this.strength <= 0) {

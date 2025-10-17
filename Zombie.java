@@ -1,4 +1,4 @@
-public abstract class Zombie implements Destroyable {
+public abstract class Zombie {
     protected int health;
     protected int level;
 
@@ -17,6 +17,5 @@ public abstract class Zombie implements Destroyable {
         return "Health = " + this.health + "\n" + "Level = " + this.level;
     }
 
-    @Override
     public abstract void destroyed();
 }
