@@ -9,7 +9,6 @@ public class Tester {
         System.out.println("Walking Zombie Data =\n" + wz.getZombieInfo());
         System.out.println("\nJumping Zombie Data =\n" + jz.getZombieInfo());
         System.out.println("\nBarrier Strength = " + b.getStrength());
-        System.out.println("\n======================\n");
         System.out.println("--- PERTARUNGAN DIMULAI! ---\n");
 
         int attackCount = 1;
